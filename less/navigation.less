@@ -1,1 +1,60 @@
 // Navigation Styles here
+.header {
+  nav {
+    display: flex;
+    width: 60%;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 21%;
+    a {
+      color: black;
+      text-decoration: none;
+      font-size: 1.4rem;
+      margin-right: 30px;
+    } 
+  }
+
+}
+@media @mobile {
+  .container {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  }
+.header {
+  width: 100%;
+  flex-direction: column;
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  nav {
+    width: 100%;
+    justify-content: center;
+    margin-left: 0px;
+  }
+}
+.content-section {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: stretch;
+
+  .text-content {
+    width: 100%;
+  }
+}
+.switch {
+  
+}
+.switch .text-content {
+  order: 1;
+}
+.switch .img-content img {
+  border: 2px solid red;
+  order: 2;
+}
+
+}
